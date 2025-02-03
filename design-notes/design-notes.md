@@ -26,3 +26,12 @@ There will actually be a third element, a way of exploring that will only explor
 
 ![alt text](image-1.png)
 
+Una Una estructura que me parecía muy interesante, es una pila que afecta todas la estructura de datos y que guarda solamente información de los cambios. Sigue por lo tanto una pila de tableros en los que no habría una copia y cuando alguien preguntara algo tendría que atravesarla. Esta pila estaría optimizada para funciones de añadir, quitar y mantener lo que son los Flag. Los Flaix son tres el hindú, la pieza que se quita y las banderas que son necesarias para el estado del tablero.
+
+![alt text](image-2.png)
+
+Por último, la otra parte del Reduce, Contiene la tasación de las distintos tableros, es decir, lo que es la función heurística. Como el segundo nivel de búsquedas es un recorrido en profundidad, pues sería interesante mantener dicha tasación por niveles. De tal forma que se facilite el algoritmo alfabeta o maxmin.
+
+![alt text](image-3.png)
+
+# Autodiff en chess
