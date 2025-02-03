@@ -97,3 +97,36 @@ The step from differential to structural requires genetic programming squared. B
 ![alt text](image-14.png)
 
 Now we return to thinking about how reinforcement learning works.
+
+ el aprendizaje por refuerzo son dos redes neuronales, las que intervienen una diciéndote el valor de los estados y más concretamente el camino o recompensa y otra red neuronal diciéndote de los caminos posibles, con cual tenemos más curiosidad exploratoria.
+
+ ![alt text](image-15.png)
+
+ Estos elementos dejan anotaciones en las fichas para que otros exploren. Una de las anotación es el movimiento que puede llegar a una determinada ficha. Nosotros tenemos que entender la relación entre el pseudo gradiente y el álgebra o curiosidad.
+
+ ![alt text](image-16.png)
+
+ Hay que conectar la autodiferenciación con las consecuencias, una forma sería recoger muestras estas muestras, necesitarían añadir más información sobre los tipos para que la programación genética fuera posible.
+
+ ![alt text](image-17.png)
+
+ Por poner un ejemplo cuando hay un desequilibrio significa que hay varias fichas por ejemplo un peón que está amenazado por otro peón y un alfil pero que a su vez está defendido por otro alfil y al final si empezamos a hacer el cálculo de intercambios Va a quedar una reina que vale 10 puntos. El aroma es complejo, porque tiene que clasificar en orden del valor todas las piezas que apuntan a una determinada para calcular el desequilibrio. Si fuera una red neuronal, esto sería típico de una discusión de una convención, la cual se alimentaría con los datos que se han recogido o el mecanismo de recompensa de aprendizaje por refuerzo.
+
+ ![alt text](image-18.png)
+
+Reinforcement learning involves two neural networks: one that tells you the value of the states and more specifically the path or reward, and another neural network that tells you which of the possible paths we have more exploratory curiosity about.
+
+![alt text](image-15.png)
+
+These elements leave annotations on the pieces for others to explore. One of the annotations is the movement that can reach a certain piece. We have to understand the relationship between the pseudo-gradient and the algebra or curiosity.
+
+![alt text](image-16.png)
+
+We need to connect autodifferentiation with the consequences. One way would be to collect samples. These samples would need to add more information about the types so that genetic programming is possible.
+
+![alt text](image-17.png)
+
+For example, when there is an imbalance, it means that there are several pieces, for example, a pawn that is threatened by another pawn and a bishop but is in turn defended by another bishop. In the end, if we start calculating the exchanges, a queen worth 10 points will remain. The aroma is complex because it has to classify in order of value all the pieces that point to a certain one to calculate the imbalance. If it were a neural network, this would be typical of a convention discussion, which would be fed with the collected data or the reinforcement learning reward mechanism.
+
+![alt text](image-18.png)
+
