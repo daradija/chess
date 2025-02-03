@@ -130,3 +130,61 @@ For example, when there is an imbalance, it means that there are several pieces,
 
 ![alt text](image-18.png)
 
+Como puede imaginar concebir este tipo de estructuras como si de programación genética se tratase es muy difícil.
+No hace falta que sea exactamente así. Sino algo que se aproxime. Vamos a concebir que acompañando al gradiente, tenemos información extra del tipo de pieza, color y su valor y vamos a pensar en un sistema de permutaciones que nos permitan crear la evolución.
+
+Sino algo que se aproxime. Vamos a concebir que acompañando al gradiente, tenemos información extra del tipo de pieza, color y su valor y vamos a pensar en un sistema de permutaciones que nos permitan crear la convolución.
+
+O dicho de otra forma, el orden en el que se debieran de trabajar los distintos tipos para tener algo aproximado.
+
+![alt text](image-19.png)
+
+ el tipo de pieza podría ser ignorado. Porque con el valor sería suficiente. 
+
+Lo que nos ocurre es un fallo de la regla de la navaja de Oakland. Teníamos la capacidad de memoria de los ordenadores y con ella podíamos resolver multitud de tareas fácilmente. Imagina por un momento, que es muy difícil borrar. En dicho procesador, programaríamos la instrucción de movimiento de un alfil, pero también programaríamos a una determinada casilla si el alfil se puede mover allí. Invalidar la notación de que una determinada ficha puede pasar por un hueco, sería difícil. 
+
+![alt text](image-20.png)
+
+Sería factible crear procesadores orientados al razonamiento. Esto es una alternativa a la arquitectura de nvidia. Éstos procesadores tendrían una etapa de control guiada por un razonador.
+
+![alt text](image-21.png)
+
+Otra forma de pensarlo es realizar todas las operaciones al mismo tiempo y detectar las incoherencias. Si hay incoherencias, hacemos un de doblaje de la ejecución y volvemos al pasado para hoy ahora ya ejecutar esos dos escenarios sin la incoherencia detectada.  
+
+![alt text](image-22.png)
+
+Reinforcement learning involves two neural networks: one that tells you the value of the states and more specifically the path or reward, and another neural network that tells you which of the possible paths we have more exploratory curiosity about.
+
+![alt text](image-15.png)
+
+These elements leave annotations on the pieces for others to explore. One of the annotations is the movement that can reach a certain piece. We have to understand the relationship between the pseudo-gradient and the algebra or curiosity.
+
+![alt text](image-16.png)
+
+We need to connect autodifferentiation with the consequences. One way would be to collect samples. These samples would need to add more information about the types so that genetic programming is possible.
+
+![alt text](image-17.png)
+
+For example, when there is an imbalance, it means that there are several pieces, for example, a pawn that is threatened by another pawn and a bishop but is in turn defended by another bishop. In the end, if we start calculating the exchanges, a queen worth 10 points will remain. The aroma is complex because it has to classify in order of value all the pieces that point to a certain one to calculate the imbalance. If it were a neural network, this would be typical of a convention discussion, which would be fed with the collected data or the reinforcement learning reward mechanism.
+
+![alt text](image-18.png)
+
+As you can imagine, conceiving this type of structure as if it were genetic programming is very difficult. It doesn't have to be exactly like that. Instead, something that approximates it. Let's conceive that along with the gradient, we have extra information about the type of piece, color, and its value, and let's think of a system of permutations that allow us to create the evolution.
+
+Or in other words, the order in which the different types should be worked on to have something approximate.
+
+![alt text](image-19.png)
+
+The type of piece could be ignored because the value would be enough.
+
+What happens to us is a failure of Oakland's razor rule. We had the memory capacity of computers, and with it, we could solve many tasks easily. Imagine for a moment that it is very difficult to erase. In such a processor, we would program the movement instruction of a bishop, but we would also program a specific square if the bishop can move there. Invalidating the notation that a certain piece can pass through a gap would be difficult.
+
+![alt text](image-20.png)
+
+It would be feasible to create processors oriented towards reasoning. This is an alternative to Nvidia's architecture. These processors would have a control stage guided by a reasoner.
+
+![alt text](image-21.png)
+
+Another way to think about it is to perform all operations simultaneously and detect inconsistencies. If there are inconsistencies, we do a rollback of the execution and go back to the past to now execute those two scenarios without the detected inconsistency.
+
+![alt text](image-22.png)
